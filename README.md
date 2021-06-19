@@ -21,8 +21,6 @@ sh install.sh
 sh install-gui.sh
 
 cd spare-blockchain-gui
-npm install
-npm run build
 npm run electron &
 ```
 
@@ -81,12 +79,9 @@ spare init
 cd spare-blockchain-gui
 git fetch
 cd ..
-chmod +x ./install-gui.sh
-./install-gui.sh
+sh install-gui.sh
 
 cd spare-blockchain-gui
-npm install
-npm run build
 npm run electron &
 
 ```
@@ -128,8 +123,6 @@ sh install.sh
 
 sh install-gui.sh
 cd spare-blockchain-gui
-npm install
-npm run build
 npm run electron
 
 ```
