@@ -51,8 +51,6 @@ sh install.sh
 sh install-gui.sh
 
 cd spare-blockchain-gui
-npm install
-npm run build
 npm run electron &
 ```
 
